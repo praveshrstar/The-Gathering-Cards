@@ -1,0 +1,46 @@
+.header {
+    margin-top: 30px;
+}
+.mainDiv {
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 100px;
+    margin-top: 30px;
+    align-items: center;
+}
+.innerDiv {
+    border: 1px solid lightgray;
+    padding: 8px;
+    color: gray;
+    font-size: 13px;
+    margin-right: -5px;
+    z-index: 1;
+    background: white;
+    border-radius: 5px 0 0 5px;
+}
+
+.cardMessage {
+    height:100px;
+     margin:auto;
+     margin-top:80px
+}
+.style {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 100px 100px 100px;
+}
+.cardStyle {
+    box-shadow: 0 0 14px 6px gray;
+    height: 100%;
+    border-radius:5px;
+}
+.inputStyle {
+    width: 300px;
+    border: 1px solid lightgray; 
+}
+
+.imageStyle {
+    height: 360px;
+    padding: 5px
+}
