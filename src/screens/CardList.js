@@ -11,8 +11,6 @@ const CardList = () => {
   const [page, setPage] = useState(1);
   const [cards, setCards] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  
-
 
   useEffect(() => {
     // Fetch cards when the component mounts
