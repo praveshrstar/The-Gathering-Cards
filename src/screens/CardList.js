@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import noImage from '../assets/images/no-image.jpeg'
 import './cardList.css'
+import Chatbot from "../components/Chatbot";
 
 const CardList = () => {
   const size = 20;
@@ -58,6 +59,9 @@ const CardList = () => {
   return (
     <div>
       <h3 className="header">Magic: The Gathering Cards</h3>
+      <div>
+        <Chatbot />
+      </div>
       <div className="mainDiv">
         <div className="innerDiv">
           {filteredCards.length}/{cards.length}
